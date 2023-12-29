@@ -9,7 +9,7 @@ import java.io.IOException;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/validate-number")
-@CrossOrigin(origins= "http://localhost:3000")
+@CrossOrigin(origins= "http://localhost:5173")
 public class NumberController {
 
     private final NumberService numberService;
